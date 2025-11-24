@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Wanderly Travel Agency</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Wanderly Travel Agency</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Explore. Experience. Enjoy.</h2>
+      <p>Personalized trips, best prices, and expert guides. Your next adventure starts here.</p>
+      <a class="btn" href="about.html">Learn more</a>
+    </section>
+
+    <section class="services">
+      <h3>Our Services</h3>
+      <div class="cards">
+        <div class="card">
+          <h4>Holiday Packages</h4>
+          <p>Curated packages for families, couples, and solo travelers.</p>
+        </div>
+        <div class="card">
+          <h4>Flight + Hotel</h4>
+          <p>Best flight and hotel combinations at discounted prices.</p>
+        </div>
+        <div class="card">
+          <h4>Local Tours</h4>
+          <p>Guided tours and unique local experiences.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Wanderly Travel Agency — Contact: info@wanderly.example</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
